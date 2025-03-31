@@ -1,3 +1,3 @@
 # My-home-programmer
 
-миша пидр
+Даня пидор
