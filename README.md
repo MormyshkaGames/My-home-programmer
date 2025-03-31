@@ -1,3 +1,3 @@
 # My-home-programmer
 
-Даня пидор
+Game from programmers for programmers
