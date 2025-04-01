@@ -57,8 +57,9 @@ public class Questions : MonoBehaviour
 
     void Update()
     {
+        
         timeBar.fillAmount = _timeRemaining / 5f;
-
+        
         if (_isQuestionActive)
         {
             _timeRemaining -= Time.deltaTime;
