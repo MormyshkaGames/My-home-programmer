@@ -40,8 +40,10 @@ public class TotalTime : MonoBehaviour
         _DaysGone.text = "Day: " + Day.ToString();
 
         _timeHour -= Time.deltaTime;
+        
         if (_timeHour <= 0)
         {
+            Sleeping.SleepPoints -= 2;
             Hour += 1;
             if (Hour >= 24)
             {
