@@ -19,7 +19,7 @@ public class Questions : MonoBehaviour
     public int _TrueButton;
     public int MachMoney;
     private float _timeRemaining = 5f; // Таймер 5 секунд
-    private bool _isQuestionActive = false; // Флаг, активен ли вопрос
+    private bool _isQuestionActive = false; // активен ли вопрос
 
     string[] Answers1 = { "Да", "100%", "Конечно", "Россия" };
     string[] Answers2 = { "1", "2", "3", "4" };
