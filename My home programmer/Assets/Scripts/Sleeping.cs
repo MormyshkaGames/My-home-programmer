@@ -9,7 +9,6 @@ public class Sleeping : MonoBehaviour
 {
     [SerializeField] private Image SleepBar;
     [SerializeField] private TextMeshProUGUI _ManySleepPoints;
-    public static int DopTimeSleep;
     public static int SleepPoints;
 
     public void Start()
@@ -31,6 +30,8 @@ public class Sleeping : MonoBehaviour
     {
         SleepPoints += 70;
         TotalTime.Hour += 8;
+        Eating.EatPoints -= 10;
+        Health.HealthPoints -= 10;
 
         if (TotalTime.Hour >= 24)
         {
