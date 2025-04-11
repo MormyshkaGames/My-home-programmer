@@ -15,6 +15,10 @@ public class Balance : MonoBehaviour
 
     void Update()
     {
+        if (Money < 0)
+        {
+            Money = 0;
+        }
         _Balance.text = Money.ToString() + "$";
     }
 }

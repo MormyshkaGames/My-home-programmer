@@ -92,6 +92,18 @@ public class Questions : MonoBehaviour
         randQestion();
     }
 
+    public void MinusStats()
+    {
+        TotalTime.Hour += 3;
+        Sleeping.SleepPoints -= 10;
+        Eating.EatPoints -= 10;
+        if (TotalTime.Hour >= 24)
+        {
+            TotalTime.Hour -= 24; // Корректно переходим на следующий день
+            TotalTime.Day += 1;   // Добавляем новый день
+        }
+    }
+
     public void ResetTimer()
     {
         _timeRemaining = 5f;
@@ -102,21 +114,25 @@ public class Questions : MonoBehaviour
     public void Answer1()
     {
         if (_TrueButton == 1) CorrectAnswer();
+        else AnCorrectAnswer();
     }
 
     public void Answer2()
     {
         if (_TrueButton == 2) CorrectAnswer();
+        else AnCorrectAnswer();
     }
 
     public void Answer3()
     {
         if (_TrueButton == 3) CorrectAnswer();
+        else AnCorrectAnswer();
     }
 
     public void Answer4()
     {
         if (_TrueButton == 4) CorrectAnswer();
+        else AnCorrectAnswer();
     }
 
     private void CorrectAnswer()
@@ -125,6 +141,10 @@ public class Questions : MonoBehaviour
         QuestPanel.SetActive(false);
         _isQuestionActive = false;
         randQestion();
+    }
+    private void AnCorrectAnswer()
+    {
+        Health.HealthPoints -= 20;
     }
 }
 
