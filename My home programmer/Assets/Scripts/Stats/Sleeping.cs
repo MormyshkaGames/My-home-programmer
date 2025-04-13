@@ -11,11 +11,6 @@ public class Sleeping : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _ManySleepPoints;
     public static int SleepPoints;
 
-    public void Start()
-    {
-        SleepPoints = 100;
-    }
-
     public void Update()
     {   
         if(SleepPoints > 100)
@@ -38,7 +33,11 @@ public class Sleeping : MonoBehaviour
             TotalTime.Hour -= 24; // Корректно переходим на следующий день
             TotalTime.Day += 1;   // Добавляем новый день
         }
-
+        int slot = PlayerPrefs.GetInt("SaveSlot", 1);
+        SaveSystem.SaveGameData(slot);
     }
+
+    public static int GetSleepPoints() => SleepPoints;
+    public static void SetSleepPoints(int sleepPoints) => SleepPoints = sleepPoints;
 }
 

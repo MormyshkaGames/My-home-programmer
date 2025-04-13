@@ -9,11 +9,6 @@ public class Health : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _ManyHealthPoints;
     public static int HealthPoints;
 
-    public void Start()
-    {
-        HealthPoints = 100;
-    }
-
     public void Update()
     {
         if (HealthPoints > 100)
@@ -29,4 +24,7 @@ public class Health : MonoBehaviour
         HealthPoints += 70;
 
     }
+
+    public static int GetHealthPoints() => HealthPoints;
+    public static void SetHealthPoints(int healthPoints) => HealthPoints = healthPoints;
 }

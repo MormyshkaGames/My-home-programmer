@@ -36,6 +36,9 @@ public class Food : MonoBehaviour
         {
             Balance.Money -= data.cost;
             ApplyFoodEffects(data);
+
+            int slot = PlayerPrefs.GetInt("SaveSlot", 1);
+            SaveSystem.SaveGameData(slot);
         }
         else
         {

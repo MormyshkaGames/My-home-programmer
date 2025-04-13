@@ -11,11 +11,6 @@ public class Eating : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _ManyEatPoints;
     public static int EatPoints;
 
-    public void Start()
-    {
-        EatPoints = 100;
-    }
-
     public void Update()
     {
         if (EatPoints > 100)
@@ -25,4 +20,6 @@ public class Eating : MonoBehaviour
         EatBar.fillAmount = EatPoints / 100f;
         _ManyEatPoints.text = EatPoints.ToString();
     }
+    public static int GetEatPoints() => EatPoints;
+    public static void SetEatPoints(int eatPoints) => EatPoints = eatPoints;
 }

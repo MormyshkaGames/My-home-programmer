@@ -14,8 +14,8 @@ public class TotalTime : MonoBehaviour
 
     void Start()
     {
-        Hour = 0;
-        Day = 0;
+        int selectedSlot = PlayerPrefs.GetInt("SaveSlot", 1);
+        SaveSystem.LoadGameData(selectedSlot); 
     }
 
     void Update()
@@ -53,8 +53,17 @@ public class TotalTime : MonoBehaviour
                 Day += 1;
             }
             _timeHour = 15f;
+
+            int slot = PlayerPrefs.GetInt("SaveSlot", 1);
+            SaveSystem.SaveGameData(slot);
         }
     }
+
+    public static int GetHour() => Hour;
+    public static int GetDay() =>  Day;
+
+    public static void SetHour(int hour) => Hour = hour;
+    public static void SetDay(int day) => Day = day;
 }
 
 
