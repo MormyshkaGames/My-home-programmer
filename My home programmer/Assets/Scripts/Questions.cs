@@ -57,9 +57,8 @@ public class Questions : MonoBehaviour
 
     void Update()
     {
-        
         timeBar.fillAmount = _timeRemaining / 5f;
-        
+
         if (_isQuestionActive)
         {
             _timeRemaining -= Time.deltaTime;
@@ -140,11 +139,20 @@ public class Questions : MonoBehaviour
         Balance.Money += MachMoney;
         QuestPanel.SetActive(false);
         _isQuestionActive = false;
+
+        int slot = PlayerPrefs.GetInt("SaveSlot", 1);
+        SaveSystem.SaveGameData(slot);
+
         randQestion();
     }
+
     private void AnCorrectAnswer()
     {
         Health.HealthPoints -= 20;
+
+        int slot = PlayerPrefs.GetInt("SaveSlot", 1);
+        SaveSystem.SaveGameData(slot);
     }
 }
+
 

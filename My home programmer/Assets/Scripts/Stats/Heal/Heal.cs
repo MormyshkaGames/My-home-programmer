@@ -1,24 +1,55 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using System.Linq;
 
 public class Heal : MonoBehaviour
 {
-    [SerializeField] private Button[] buttons; // Массив кнопок
-    public int[] values = { 50, 42, 30, 10, 100 }; // Значения кнопок
+    [System.Serializable]
+    public struct HealData
+    {
+        public int eatPoints;
+        public int energy;
+        public int health;
+        public int cost;
+    }
+
+    [SerializeField] private Button[] buttons;
+    [SerializeField] private HealData[] healData;
 
     void Start()
     {
         for (int i = 0; i < buttons.Length; i++)
         {
-            int value = values[i]; // Берём значение из массива
-            buttons[i].onClick.AddListener(() => ChangeValue(value));
+            int index = i;
+            buttons[i].onClick.AddListener(() =>
+            {
+                TryBuyHeal(index);
+            });
         }
     }
 
-    void ChangeValue(int newValue)
+    void TryBuyHeal(int index)
     {
-        Health.HealthPoints += newValue;
+        HealData data = healData[index];
+
+        if (Balance.Money >= data.cost)
+        {
+            Balance.Money -= data.cost;
+            ApplyHealEffects(data);
+
+            int slot = PlayerPrefs.GetInt("SaveSlot", 1);
+            SaveSystem.SaveGameData(slot);
+        }
+        else
+        {
+            Debug.Log("Недостаточно денег!");
+        }
+    }
+
+    void ApplyHealEffects(HealData data)
+    {
+        Eating.EatPoints += data.eatPoints;
+        Sleeping.SleepPoints += data.energy;
+        Health.HealthPoints += data.health;
     }
 }
