@@ -3,6 +3,57 @@
   "WorkspaceRootPath": "E:\\Unity\\My-home-programmer\\My home programmer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\StatsOfFood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StatsOfFood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\StatsOfHeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StatsOfHeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\OpenPanelAnim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\OpenPanelAnim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Sleeping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Stats\\Sleeping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Animations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Animations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SaveManger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Data\\SaveManger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\TotalTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TotalTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SlotSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Data\\SlotSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Food\\Eating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Stats\\Food\\Eating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\Crazy-Flikez\\Crazy Flikez\\Assets\\Scripts\\Score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Stats\\Balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Meniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Meniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Food\\Food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Stats\\Food\\Food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,36 +62,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Stats\\Heal\\Heal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Food\\Eating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Stats\\Food\\Eating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Heal\\Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Stats\\Heal\\Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Sleeping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Stats\\Sleeping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\TotalTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TotalTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SlotSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Data\\SlotSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SaveManger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Data\\SaveManger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Meniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Meniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SaveSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,29 +74,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Data\\SaveData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Stats\\Balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\StatsOfFood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StatsOfFood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\OpenPanelAnim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\OpenPanelAnim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\Crazy-Flikez\\Crazy Flikez\\Assets\\Scripts\\Score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Oleg\\Assets\\Scripts\\BoughtinShop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GameForPDI2.0\\Assets\\Scripts\\BoughtinShop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Animations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Animations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,63 +91,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Heal.cs",
-              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Heal\\Heal.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Stats\\Heal\\Heal.cs",
-              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Heal\\Heal.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Stats\\Heal\\Heal.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "OpenPanelAnim.cs",
+              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\OpenPanelAnim.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OpenPanelAnim.cs",
+              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\OpenPanelAnim.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OpenPanelAnim.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T21:59:34.685Z",
+              "WhenOpened": "2025-04-14T23:03:33.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatsOfHeal.cs",
+              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\StatsOfHeal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatsOfHeal.cs",
+              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\StatsOfHeal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatsOfHeal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T19:19:10.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Food.cs",
-              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Food\\Food.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Stats\\Food\\Food.cs",
-              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Food\\Food.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Stats\\Food\\Food.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Title": "StatsOfFood.cs",
+              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\StatsOfFood.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatsOfFood.cs",
+              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\StatsOfFood.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatsOfFood.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T21:59:10.08Z",
+              "WhenOpened": "2025-04-10T21:13:51.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SaveData.cs",
-              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SaveData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SaveData.cs",
-              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SaveData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\SaveData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T18:38:50.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SaveSystem.cs",
-              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SaveSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SaveSystem.cs",
-              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SaveSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\SaveSystem.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADIAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T18:47:23.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Sleeping.cs",
               "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Sleeping.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Stats\\Sleeping.cs",
@@ -156,33 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Health.cs",
-              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Heal\\Health.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Stats\\Heal\\Health.cs",
-              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Heal\\Health.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Stats\\Heal\\Health.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T21:12:42.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Eating.cs",
-              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Food\\Eating.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Stats\\Food\\Eating.cs",
-              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Food\\Eating.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Stats\\Food\\Eating.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T21:12:12.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Meniu.cs",
               "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Meniu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Meniu.cs",
@@ -195,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SlotSelector.cs",
               "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SlotSelector.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SlotSelector.cs",
@@ -208,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "TotalTime.cs",
               "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\TotalTime.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TotalTime.cs",
@@ -221,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "SaveManger.cs",
               "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SaveManger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SaveManger.cs",
@@ -234,20 +199,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Questions.cs",
               "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Questions.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Questions.cs",
               "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Questions.cs",
               "RelativeToolTip": "Assets\\Scripts\\Questions.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAEIAAAAgAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAEIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T11:27:31.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Balance.cs",
               "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Balance.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Stats\\Balance.cs",
@@ -260,12 +225,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "Score.cs",
               "DocumentMoniker": "E:\\Unity\\Crazy-Flikez\\Crazy Flikez\\Assets\\Scripts\\Score.cs",
               "RelativeDocumentMoniker": "..\\..\\Crazy-Flikez\\Crazy Flikez\\Assets\\Scripts\\Score.cs",
-              "ToolTip": "E:\\Unity\\Crazy-Flikez\\Crazy Flikez\\Assets\\Scripts\\Score.cs*",
-              "RelativeToolTip": "..\\..\\Crazy-Flikez\\Crazy Flikez\\Assets\\Scripts\\Score.cs*",
+              "ToolTip": "E:\\Unity\\Crazy-Flikez\\Crazy Flikez\\Assets\\Scripts\\Score.cs",
+              "RelativeToolTip": "..\\..\\Crazy-Flikez\\Crazy Flikez\\Assets\\Scripts\\Score.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T18:13:50.862Z",
@@ -273,7 +238,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
+              "Title": "Eating.cs",
+              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Food\\Eating.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Stats\\Food\\Eating.cs",
+              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Food\\Eating.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Stats\\Food\\Eating.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T21:12:12.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Food.cs",
+              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Food\\Food.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Stats\\Food\\Food.cs",
+              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Food\\Food.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Stats\\Food\\Food.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T21:59:10.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Animations.cs",
+              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Animations.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Animations.cs",
+              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Animations.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Animations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T19:19:41.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "BoughtinShop.cs",
               "DocumentMoniker": "E:\\Oleg\\Assets\\Scripts\\BoughtinShop.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Oleg\\Assets\\Scripts\\BoughtinShop.cs",
@@ -281,38 +285,59 @@
               "RelativeToolTip": "..\\..\\..\\Oleg\\Assets\\Scripts\\BoughtinShop.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T18:15:33.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T18:15:33.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StatsOfFood.cs",
-              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\StatsOfFood.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StatsOfFood.cs",
-              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\StatsOfFood.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StatsOfFood.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "DocumentIndex": 15,
+              "Title": "Health.cs",
+              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Heal\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Stats\\Heal\\Health.cs",
+              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Heal\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Stats\\Heal\\Health.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T21:13:51.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T21:12:42.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SaveSystem.cs",
+              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SaveSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SaveSystem.cs",
+              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SaveSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\SaveSystem.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T18:47:23.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SaveData.cs",
+              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SaveData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SaveData.cs",
+              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Data\\SaveData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\SaveData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T18:38:50.909Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "OpenPanelAnim.cs",
-              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\OpenPanelAnim.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\OpenPanelAnim.cs",
-              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\OpenPanelAnim.cs",
-              "RelativeToolTip": "Assets\\Scripts\\OpenPanelAnim.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Title": "Heal.cs",
+              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Heal\\Heal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Stats\\Heal\\Heal.cs",
+              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Stats\\Heal\\Heal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Stats\\Heal\\Heal.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T21:56:57.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T21:59:34.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Balance.cs",
               "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Balance.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Balance.cs",
@@ -324,24 +349,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "BoughtinShop.cs",
               "DocumentMoniker": "F:\\GameForPDI2.0\\Assets\\Scripts\\BoughtinShop.cs",
               "ToolTip": "F:\\GameForPDI2.0\\Assets\\Scripts\\BoughtinShop.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T11:53:06.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Animations.cs",
-              "DocumentMoniker": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Animations.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Animations.cs",
-              "ToolTip": "E:\\Unity\\My-home-programmer\\My home programmer\\Assets\\Scripts\\Animations.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Animations.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:19:41.163Z"
             }
           ]
         }

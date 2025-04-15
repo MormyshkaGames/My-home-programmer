@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,7 +121,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: med_kit_door_anim_0
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 242
+        width: 170
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80eb01bced44d704688102666452fc58
+      internalID: -1537230818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: med_kit_door_anim_1
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 242
+        width: 170
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73046838bdf2fbb40814b6ae4e38f6ac
+      internalID: 1313444212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: med_kit_door_anim_2
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 242
+        width: 170
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd123d1ec52eedf43a9700dda759355d
+      internalID: -518825586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: med_kit_door_anim_3
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 242
+        width: 170
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca85a7f25f6e0947b7b30854a3e623a
+      internalID: -717262402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: med_kit_door_anim_4
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 242
+        width: 170
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e8fc748925fd6428599cac8870b202
+      internalID: -429982372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: med_kit_door_anim_5
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 242
+        width: 170
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6afdc634de4a64b9cdc25be940fa08
+      internalID: 1073128278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: med_kit_door_anim_6
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 242
+        width: 170
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba950a32ebe2eb4f950caae88bf9723
+      internalID: 656149514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +279,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      med_kit_door_anim_0: -1537230818
+      med_kit_door_anim_1: 1313444212
+      med_kit_door_anim_2: -518825586
+      med_kit_door_anim_3: -717262402
+      med_kit_door_anim_4: -429982372
+      med_kit_door_anim_5: 1073128278
+      med_kit_door_anim_6: 656149514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

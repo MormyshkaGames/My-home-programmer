@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f02f1edd8bcddc94eac879298222a7f5
+guid: c70fe190f854f4f49924fbeb0b348e0a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,169 +123,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: med_kit_menu 1_0
+      name: hp_bar 1_0
       rect:
         serializedVersion: 2
-        x: 229
-        y: 237
-        width: 182
-        height: 163
+        x: 34
+        y: 88
+        width: 64
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97084fac238cc714ca7834c14d5434af
-      internalID: 514529935
+      spriteID: 5f76f98621e5a7a42b3e6de2e70289b9
+      internalID: -151828529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: med_kit_menu 1_1
+      name: hp_bar 1_1
       rect:
         serializedVersion: 2
-        x: 778
-        y: 237
-        width: 184
-        height: 163
+        x: 14
+        y: 44
+        width: 86
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d7e22d0b5ff9ac40bbb1eac7640c851
-      internalID: -517488837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: med_kit_menu 1_2
-      rect:
-        serializedVersion: 2
-        x: 1327
-        y: 237
-        width: 185
-        height: 163
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6165794f3d8f3f74bac6ea976ab5285b
-      internalID: 1400279292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: med_kit_menu 1_3
-      rect:
-        serializedVersion: 2
-        x: 1879
-        y: 237
-        width: 182
-        height: 163
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac223ac766016b14aa4cfbc7cf25b4c0
-      internalID: -1984551014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: med_kit_menu 1_4
-      rect:
-        serializedVersion: 2
-        x: 2428
-        y: 237
-        width: 185
-        height: 163
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95e5ad6dc2ab4774e91127ed2f0ec4a5
-      internalID: -17604099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: med_kit_menu 1_5
-      rect:
-        serializedVersion: 2
-        x: 2977
-        y: 237
-        width: 185
-        height: 163
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39e7c40d39dd9e94f97e0f168dfdb14a
-      internalID: 1441509463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: med_kit_menu 1_6
-      rect:
-        serializedVersion: 2
-        x: 3529
-        y: 237
-        width: 182
-        height: 163
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 206877bfa35156143ba03123e00bbc53
-      internalID: -793595783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: med_kit_menu 1_7
-      rect:
-        serializedVersion: 2
-        x: 4080
-        y: 238
-        width: 180
-        height: 159
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac5c148de4b43984cacd54a833ec108b
-      internalID: 373296963
+      spriteID: 6c2bc91f038cd1b4598a91388f267f4d
+      internalID: -340305809
       vertices: []
       indices: 
       edges: []
@@ -301,14 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      med_kit_menu 1_0: 514529935
-      med_kit_menu 1_1: -517488837
-      med_kit_menu 1_2: 1400279292
-      med_kit_menu 1_3: -1984551014
-      med_kit_menu 1_4: -17604099
-      med_kit_menu 1_5: 1441509463
-      med_kit_menu 1_6: -793595783
-      med_kit_menu 1_7: 373296963
+      hp_bar 1_0: -151828529
+      hp_bar 1_1: -340305809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
