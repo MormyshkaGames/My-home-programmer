@@ -1,0 +1,631 @@
+fileFormatVersion: 2
+guid: f1fe7b7dffbdd614db9a0cf04d619a33
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: notebook_only_oblozka_0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f7323bfd963ee4cba57bc070f1c1c2
+      internalID: -262326109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f090bb04e6f70143bdbf0db043db26d
+      internalID: 805843110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128b78d4e7a514e42b441c258c0a2be9
+      internalID: -1003869175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_3
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 304
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe86fb4ce1c6fe468bfb58823fa90ea
+      internalID: -1110535418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_4
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0b8e040733ea342acdd42e5692bd49
+      internalID: 269725707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_5
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af8503fa6b5b704eb4036dd290c0ef5
+      internalID: 1012164906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_6
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fd33fd468755f498e614f2e90d5cb3
+      internalID: 1435252393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_7
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7cf98cc48bf7044a9218e68be59395
+      internalID: -1668551084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_8
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a00cc16dda5bd24580387294446f9da
+      internalID: 751106920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_9
+      rect:
+        serializedVersion: 2
+        x: 7600
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7599c53889c71e942b95469be5605018
+      internalID: 642527615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_10
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e040dd66d2223e141be4b3ee9b3c3b2b
+      internalID: 990154159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_11
+      rect:
+        serializedVersion: 2
+        x: 9200
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021a81dffa987b545b86e69d10ed77e0
+      internalID: 894632319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_12
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 304
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11c0308f319e0b41a9748cc38ac95e3
+      internalID: -525790051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_13
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2cab1b0e3c32742ac64b3c7d3e62b1
+      internalID: -1841313748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_14
+      rect:
+        serializedVersion: 2
+        x: 11600
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f764b7cd625e90745b9c891abe55a072
+      internalID: 1980684415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_15
+      rect:
+        serializedVersion: 2
+        x: 12400
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd5db2090107944f964ffe78c16a2de
+      internalID: 946056237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_16
+      rect:
+        serializedVersion: 2
+        x: 13200
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5c150a7e9215a49a372085888dbc3d
+      internalID: -1989985114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_28
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fdbf102a8762e4180fb734265891fa
+      internalID: 294117406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_42
+      rect:
+        serializedVersion: 2
+        x: 14800
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfda4d024c6a8a4c95b9cfb149725b5
+      internalID: -1893177876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notebook_only_oblozka_57
+      rect:
+        serializedVersion: 2
+        x: 15600
+        y: 303
+        width: 159
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c653b207fa2a45149a91bece5e3e9f51
+      internalID: -2142226717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      notebook_only_oblozka_0: -262326109
+      notebook_only_oblozka_1: 805843110
+      notebook_only_oblozka_10: 990154159
+      notebook_only_oblozka_11: 894632319
+      notebook_only_oblozka_12: -525790051
+      notebook_only_oblozka_13: -1841313748
+      notebook_only_oblozka_14: 1980684415
+      notebook_only_oblozka_15: 946056237
+      notebook_only_oblozka_16: -1989985114
+      notebook_only_oblozka_17: -1440173188
+      notebook_only_oblozka_18: -1050790112
+      notebook_only_oblozka_19: -532070723
+      notebook_only_oblozka_2: -1003869175
+      notebook_only_oblozka_20: -62406212
+      notebook_only_oblozka_21: 1656701942
+      notebook_only_oblozka_22: 169745160
+      notebook_only_oblozka_23: 499393187
+      notebook_only_oblozka_24: -2095454026
+      notebook_only_oblozka_25: 2066030112
+      notebook_only_oblozka_26: 1101535969
+      notebook_only_oblozka_27: 286432885
+      notebook_only_oblozka_28: 294117406
+      notebook_only_oblozka_29: 390415519
+      notebook_only_oblozka_3: -1110535418
+      notebook_only_oblozka_30: -1983431055
+      notebook_only_oblozka_31: 1544401053
+      notebook_only_oblozka_32: 816815791
+      notebook_only_oblozka_33: 647492415
+      notebook_only_oblozka_34: 286910962
+      notebook_only_oblozka_35: 373776350
+      notebook_only_oblozka_36: -2014984590
+      notebook_only_oblozka_37: 367062405
+      notebook_only_oblozka_38: -467260524
+      notebook_only_oblozka_39: -544534691
+      notebook_only_oblozka_4: 269725707
+      notebook_only_oblozka_40: 791726720
+      notebook_only_oblozka_41: 1365530464
+      notebook_only_oblozka_42: -1893177876
+      notebook_only_oblozka_43: 105462566
+      notebook_only_oblozka_44: 2008001931
+      notebook_only_oblozka_45: 1472681943
+      notebook_only_oblozka_46: -914453983
+      notebook_only_oblozka_47: 688017880
+      notebook_only_oblozka_48: 1072291997
+      notebook_only_oblozka_49: -47356697
+      notebook_only_oblozka_5: 1012164906
+      notebook_only_oblozka_50: -884121177
+      notebook_only_oblozka_51: -277293241
+      notebook_only_oblozka_52: 916802597
+      notebook_only_oblozka_53: 1223898696
+      notebook_only_oblozka_54: -1558486369
+      notebook_only_oblozka_55: -442089222
+      notebook_only_oblozka_56: 1032822969
+      notebook_only_oblozka_57: -2142226717
+      notebook_only_oblozka_58: -919415818
+      notebook_only_oblozka_59: -559093332
+      notebook_only_oblozka_6: 1435252393
+      notebook_only_oblozka_60: 718496559
+      notebook_only_oblozka_61: -1673951666
+      notebook_only_oblozka_62: -1399763804
+      notebook_only_oblozka_63: 324280388
+      notebook_only_oblozka_64: 1840005318
+      notebook_only_oblozka_65: 2131837885
+      notebook_only_oblozka_66: 1501424238
+      notebook_only_oblozka_67: 247538618
+      notebook_only_oblozka_68: 1518767219
+      notebook_only_oblozka_69: -875692634
+      notebook_only_oblozka_7: -1668551084
+      notebook_only_oblozka_70: 1254609115
+      notebook_only_oblozka_8: 751106920
+      notebook_only_oblozka_9: 642527615
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

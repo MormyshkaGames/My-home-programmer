@@ -1,22 +1,22 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using System.Collections;
 
-public class StatsOfFood : MonoBehaviour
+public class StatsOfHeal : MonoBehaviour
 {
     [SerializeField] private GameObject[] statPanels;   // Панели со статистикой
-    [SerializeField] private GameObject[] foodPanels;   // Панели еды
+    [SerializeField] private GameObject[] healPanels;   // Продукты
 
     private int currentShown = -1;
 
     void Start()
     {
-        for (int i = 0; i < foodPanels.Length; i++)
+        for (int i = 0; i < healPanels.Length; i++)
         {
             int index = i;
 
-            EventTrigger trigger = foodPanels[i].GetComponent<EventTrigger>();
-            if (trigger == null) trigger = foodPanels[i].AddComponent<EventTrigger>();
+            EventTrigger trigger = healPanels[i].GetComponent<EventTrigger>();
+            if (trigger == null) trigger = healPanels[i].AddComponent<EventTrigger>();
 
             // Наведение на продукт
             var entryEnter = new EventTrigger.Entry
