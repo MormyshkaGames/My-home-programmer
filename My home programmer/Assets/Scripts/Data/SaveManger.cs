@@ -25,6 +25,16 @@ public static class SaveManager
         File.WriteAllText(path, json);
     }
 
+    public static void DeleteSave(int saveIndex)
+    {
+        string path = Application.persistentDataPath + "/saves/save" + saveIndex + ".json";
+        if (File.Exists(path))
+        {
+            File.Delete(path);
+        }
+    }
+
+
     // Загрузка данных игры из файла по индексу
     public static SaveData LoadGame(int saveIndex)
     {

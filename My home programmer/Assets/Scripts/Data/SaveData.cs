@@ -7,5 +7,6 @@ public class SaveData
     public int EatPoints;
     public int HealthPoints;
     public int SleepPoints;
+    public int hardnes;
 }
 

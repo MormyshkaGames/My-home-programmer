@@ -9,7 +9,7 @@ public class Sleeping : MonoBehaviour
 {
     [SerializeField] private Image SleepBar;
     [SerializeField] private TextMeshProUGUI _ManySleepPoints;
-    public static int SleepPoints;
+    public static int SleepPoints = 100;
 
     public void Update()
     {   

@@ -9,7 +9,7 @@ public class Eating : MonoBehaviour
 {
     [SerializeField] private Image EatBar;
     [SerializeField] private TextMeshProUGUI _ManyEatPoints;
-    public static int EatPoints;
+    public static int EatPoints = 100;
 
     public void Update()
     {

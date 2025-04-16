@@ -7,7 +7,7 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private Image HealthBar;
     [SerializeField] private TextMeshProUGUI _ManyHealthPoints;
-    public static int HealthPoints;
+    public static int HealthPoints = 100;
 
     public void Update()
     {

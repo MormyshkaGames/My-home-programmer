@@ -11,7 +11,8 @@ public class SaveSystem : MonoBehaviour
             Day = TotalTime.GetDay(),
             EatPoints = Eating.GetEatPoints(),
             HealthPoints = Health.GetHealthPoints(),
-            SleepPoints = Sleeping.GetSleepPoints()
+            SleepPoints = Sleeping.GetSleepPoints(),
+            hardnes = Hardnes.GetHardnes()
         };
 
         SaveManager.SaveGame(data, saveIndex);
@@ -28,6 +29,7 @@ public class SaveSystem : MonoBehaviour
             Eating.SetEatPoints(data.EatPoints);
             Health.SetHealthPoints(data.HealthPoints);
             Sleeping.SetSleepPoints(data.SleepPoints);
+            Hardnes.SetHardnes(data.hardnes);
         }
         else
         {
@@ -40,7 +42,8 @@ public class SaveSystem : MonoBehaviour
                 Day = 0,
                 EatPoints = 100,
                 HealthPoints = 100,
-                SleepPoints = 100
+                SleepPoints = 100,
+                hardnes = 0
             };
             SaveManager.SaveGame(newData, saveIndex);
             Balance.SetMoney(newData.money);
@@ -49,6 +52,7 @@ public class SaveSystem : MonoBehaviour
             Eating.SetEatPoints(newData.EatPoints);
             Health.SetHealthPoints(newData.HealthPoints);
             Sleeping.SetSleepPoints(newData.SleepPoints);
+            Hardnes.SetHardnes(newData.hardnes);
         }
     }
 }

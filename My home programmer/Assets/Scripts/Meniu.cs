@@ -5,19 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Meniu : MonoBehaviour
 {
-    public void menuuu(int slotIndex)
-    {
-        // Сохраняем выбранный слот в PlayerPrefs
-        PlayerPrefs.SetInt("SaveSlot", slotIndex);
-        PlayerPrefs.Save(); // сохраняем
 
-        Debug.Log("Выбран слот: " + slotIndex); // Проверка в консоли
+    public void menuuu()
+    {
 
         // Загружаем сцену игры
         SceneManager.LoadScene("Start");
 
     }
-
     public void Exitgame()
     {
         Application.Quit();
