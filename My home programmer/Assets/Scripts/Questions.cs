@@ -622,7 +622,7 @@ case 50:
     MachMoney = 100;
     WhichButtonWhichText();
     break;
-    
+    }
 
     ResetTimer();
 }
