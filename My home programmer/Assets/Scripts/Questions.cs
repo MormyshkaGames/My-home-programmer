@@ -18,42 +18,614 @@ public class Questions : MonoBehaviour
     public int _NamberOfQuestion;
     public int _TrueButton;
     public int MachMoney;
-    private float _timeRemaining = 5f; // Таймер 5 секунд
-    private bool _isQuestionActive = false; // активен ли вопрос
+    private float _timeRemaining = 5f; // пїЅпїЅпїЅпїЅпїЅпїЅ 5 пїЅпїЅпїЅпїЅпїЅпїЅ
+    private bool _isQuestionActive = false; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
-    string[] Answers1 = { "Да", "100%", "Конечно", "Россия" };
-    string[] Answers2 = { "1", "2", "3", "4" };
-    string[] shuffledAnswers = new string[4];
+string[] Answers1 = { "1", "2", "3", "4" };
+string[] Answers2 = { "BЕ‚Д™dy", "Kod", "Dane", "Logi" };
+string[] Answers3 = { "PД™tla", "If", "Funkcja", "Klasa" };
+string[] Answers4 = { "1", "2", "3", "4" };
+string[] Answers5 = { "1", "2", "3", "4" };
+string[] Answers6 = { "OOP", "SQL", "HTTP", "CSS" };
+string[] Answers7 = { "1", "2", "3", "4" };
+string[] Answers8 = { "Git", "SVN", "Mercurial", "FTP" };
+string[] Answers9 = { "1", "2", "3", "4" };
+string[] Answers10 = { "Stack", "Heap", "Queue", "Tree" };
+string[] Answers11 = { "1", "2", "3", "4" };
+string[] Answers12 = { "TCP", "UDP", "HTTP", "FTP" };
+string[] Answers13 = { "1", "2", "3", "4" };
+string[] Answers14 = { "Agile", "Scrum", "Waterfall", "Kanban" };
+string[] Answers15 = { "1", "2", "3", "4" };
+string[] Answers16 = { "CSS", "HTML", "XML", "JSON" };
+string[] Answers17 = { "1", "2", "3", "4" };
+string[] Answers18 = { "Linux", "Windows", "macOS", "Android" };
+string[] Answers19 = { "1", "2", "3", "4" };
+string[] Answers20 = { "REST", "SOAP", "GraphQL", "gRPC" };
+string[] Answers21 = { "1", "2", "3", "4" };
+string[] Answers22 = { "GitHub", "GitLab", "Bitbucket", "Jira" };
+string[] Answers23 = { "1", "2", "3", "4" };
+string[] Answers24 = { "React", "Vue", "Angular", "Svelte" };
+string[] Answers25 = { "1", "2", "3", "4" };
+string[] Answers26 = { "Python", "Java", "C++", "Go" };
+string[] Answers27 = { "1", "2", "3", "4" };
+string[] Answers28 = { "MySQL", "MongoDB", "PostgreSQL", "Redis" };
+string[] Answers29 = { "1", "2", "3", "4" };
+string[] Answers30 = { "Docker", "K8s", "VM", "CI/CD" };
+string[] Answers31 = { "1", "2", "3", "4" };
+string[] Answers32 = { "1", "2", "3", "4" };
+string[] Answers33 = { "1", "2", "3", "4" };
+string[] Answers34 = { "Stos", "Kolejka", "Lista", "Drzewo" };
+string[] Answers35 = { "1", "2", "3", "4" };
+string[] Answers36 = { "Encapsulation", "Inheritance", "Polymorphism", "Abstraction" };
+string[] Answers37 = { "1", "2", "3", "4" };
+string[] Answers38 = { "1", "2", "3", "4" };
+string[] Answers39 = { "1", "2", "3", "4" };
+string[] Answers40 = { "1", "2", "3", "4" };
+string[] Answers41 = { "1", "2", "3", "4" };
+string[] Answers42 = { "1", "2", "3", "4" };
+string[] Answers43 = { "1", "2", "3", "4" };
+string[] Answers44 = { "1", "2", "3", "4" };
+string[] Answers45 = { "1", "2", "3", "4" };
+string[] Answers46 = { "1", "2", "3", "4" };
+string[] Answers47 = { "1", "2", "3", "4" };
+string[] Answers48 = { "1", "2", "3", "4" };
+string[] Answers49 = { "1", "2", "3", "4" };
+string[] Answers50 = { "1", "2", "3", "4" };
+string[] shuffledAnswers = new string[4];
 
-    void Start()
+void Start()
+{
+    randQestion();
+}
+
+public void randQestion()
+{
+    _NamberOfQuestion = Random.Range(1, 11);
+    switch (_NamberOfQuestion)
     {
-        randQestion();
+        case 1:
+            _Question.text = "Co oznacza akronim DRY w kontekЕ›cie programowania? \n" +
+                "1. Do Repeat Yourself вЂ“ Powtarzaj ten sam kod wielokrotnie.\n" +
+                "2. Don't Repeat Yourself вЂ“ Unikaj powielania tego samego kodu.\n" +
+                "3. Data Retrieval Yield вЂ“ SposГіb pobierania danych z bazy.\n" +
+                "4. Dynamic Resource Yielding вЂ“ Dynamiczne zarzД…dzanie zasobami.";
+            _TrueAnswer = "2";
+            shuffledAnswers = Answers1.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 2:
+            _Question.text = "Co sprawdza debuger?";
+            _TrueAnswer = "BЕ‚Д™dy";
+            shuffledAnswers = Answers2.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 3:
+            _Question.text = "KtГіra konstrukcja pozwala wielokrotnie wykonaД‡ ten sam kod?";
+            _TrueAnswer = "PД™tla";
+            shuffledAnswers = Answers3.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 4:
+            _Question.text = "Co oznacza SOLID w programowaniu obiektowym?\n" +
+                "1. ZbiГіr zasad projektowania kodu\n" +
+                "2. Typ struktury danych\n" +
+                "3. SposГіb debugowania\n" +
+                "4. JД™zyk programowania";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers4.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 5:
+            _Question.text = "KtГіre z tych jest typem danych?\n" +
+                "1. Integer\n" +
+                "2. Function\n" +
+                "3. Loop\n" +
+                "4. Class";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers5.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        // Nowe pytania (6-10)
+        case 6:
+            _Question.text = "KtГіry z tych akronimГіw dotyczy programowania obiektowego?";
+            _TrueAnswer = "OOP";
+            shuffledAnswers = Answers6.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 7:
+            _Question.text = "Co opisuje zasadД™ 'Single Responsibility'?\n" +
+                "1. Klasa powinna mieД‡ tylko jednД… odpowiedzialnoЕ›Д‡\n" +
+                "2. Funkcja nie moЕјe przekraczaД‡ 10 linii kodu\n" +
+                "3. Zmienne muszД… byД‡ jednoznacznie nazwane\n" +
+                "4. Kod powinien byД‡ pisany w jednym jД™zyku";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers7.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 8:
+            _Question.text = "KtГіre narzД™dzie jest systemem kontroli wersji?";
+            _TrueAnswer = "Git";
+            shuffledAnswers = Answers8.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 9:
+            _Question.text = "Co oznacza 'polimorfizm' w OOP?\n" +
+                "1. MoЕјliwoЕ›Д‡ nadpisywania metod\n" +
+                "2. Ukrywanie implementacji\n" +
+                "3. Dziedziczenie wЕ‚aЕ›ciwoЕ›ci\n" +
+                "4. Tworzenie wielu instancji klasy";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers9.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 10:
+            _Question.text = "KtГіra struktura danych dziaЕ‚a na zasadzie LIFO?";
+            _TrueAnswer = "Stack";
+            shuffledAnswers = Answers10.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+                case 11:
+            _Question.text = "KtГіry protokГіЕ‚ jest bezpoЕ‚Д…czeniowy?\n" +
+                "1. TCP\n" +
+                "2. UDP\n" +
+                "3. HTTP\n" +
+                "4. FTP";
+            _TrueAnswer = "2";
+            shuffledAnswers = Answers11.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 12:
+            _Question.text = "KtГіry protokГіЕ‚ sЕ‚uЕјy do przesyЕ‚ania plikГіw?";
+            _TrueAnswer = "FTP";
+            shuffledAnswers = Answers12.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 13:
+            _Question.text = "Co jest gЕ‚Гіwnym celem refaktoryzacji kodu?\n" +
+                "1. Poprawa czytelnoЕ›ci bez zmiany funkcjonalnoЕ›ci\n" +
+                "2. Dodawanie nowych funkcji\n" +
+                "3. Usuwanie komentarzy\n" +
+                "4. Zmiana jД™zyka programowania";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers13.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 14:
+            _Question.text = "KtГіra metoda zarzД…dzania projektem uЕјywa sprintГіw?";
+            _TrueAnswer = "Scrum";
+            shuffledAnswers = Answers14.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 15:
+            _Question.text = "Co oznacza '404' w protokole HTTP?\n" +
+                "1. Nie znaleziono\n" +
+                "2. Brak dostД™pu\n" +
+                "3. BЕ‚Д…d serwera\n" +
+                "4. Przekierowanie";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers15.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 16:
+            _Question.text = "KtГіre z tych jest jД™zykiem znacznikГіw?";
+            _TrueAnswer = "HTML";
+            shuffledAnswers = Answers16.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 17:
+            _Question.text = "Co jest gЕ‚Гіwnym celem testГіw jednostkowych?\n" +
+                "1. Sprawdzenie pojedynczych komponentГіw\n" +
+                "2. Testowanie interfejsu uЕјytkownika\n" +
+                "3. Sprawdzenie wydajnoЕ›ci\n" +
+                "4. Testowanie integracji systemГіw";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers17.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 18:
+            _Question.text = "KtГіry system operacyjny jest oparty na jД…drze Linux?";
+            _TrueAnswer = "Android";
+            shuffledAnswers = Answers18.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 19:
+            _Question.text = "Co jest kluczД… cechД… architektury mikroserwisГіw?\n" +
+                "1. LuЕєne powiД…zania miД™dzy komponentami\n" +
+                "2. WspГіlna baza danych\n" +
+                "3. Jeden monolityczny kod\n" +
+                "4. Brak komunikacji sieciowej";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers19.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 20:
+            _Question.text = "KtГіre z tych jest architekturД… API?";
+            _TrueAnswer = "REST";
+            shuffledAnswers = Answers20.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 21:
+            _Question.text = "Co jest gЕ‚Гіwnym celem Continuous Integration?\n" +
+                "1. Automatyczne mergowanie i testowanie kodu\n" +
+                "2. RД™czne wdraЕјanie zmian\n" +
+                "3. Tworzenie dokumentacji\n" +
+                "4. ZarzД…dzanie zadaniami";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers21.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 22:
+            _Question.text = "KtГіre narzД™dzie jest hostem repozytoriГіw Git?";
+            _TrueAnswer = "GitHub";
+            shuffledAnswers = Answers22.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 23:
+            _Question.text = "Co jest podstawowД… zasadД… programowania defensywnego?\n" +
+                "1. Oczekiwanie nieprawidЕ‚owych danych wejЕ›ciowych\n" +
+                "2. Ignorowanie bЕ‚Д™dГіw\n" +
+                "3. UЕјywanie tylko globalnych zmiennych\n" +
+                "4. Brak walidacji danych";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers23.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 24:
+            _Question.text = "KtГіre z tych jest frameworkiem frontendowym?";
+            _TrueAnswer = "React";
+            shuffledAnswers = Answers24.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 25:
+            _Question.text = "Co jest gЕ‚ГіwnД… zaletД… jД™zykГіw interpretowanych?\n" +
+                "1. ЕЃatwoЕ›Д‡ debugowania\n" +
+                "2. NajwyЕјsza wydajnoЕ›Д‡\n" +
+                "3. Brak potrzeby interpretera\n" +
+                "4. Niski poziom abstrakcji";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers25.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 26:
+            _Question.text = "KtГіry jД™zyk jest kompilowany do bytecode'u?";
+            _TrueAnswer = "Java";
+            shuffledAnswers = Answers26.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 27:
+            _Question.text = "Co jest kluczowe w podejЕ›ciu DevOps?\n" +
+                "1. Integracja rozwoju i operacji\n" +
+                "2. Oddzielenie zespoЕ‚Гіw\n" +
+                "3. RД™czne wdraЕјanie\n" +
+                "4. Brak automatyzacji";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers27.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 28:
+            _Question.text = "KtГіra baza danych jest NoSQL?";
+            _TrueAnswer = "MongoDB";
+            shuffledAnswers = Answers28.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 29:
+            _Question.text = "Co jest gЕ‚Гіwnym celem konteneryzacji?\n" +
+                "1. Izolacja Е›rodowisk wykonawczych\n" +
+                "2. Wirtualizacja sprzД™tu\n" +
+                "3. ZwiД™kszenie zuЕјycia zasobГіw\n" +
+                "4. RД™czna konfiguracja";
+            _TrueAnswer = "1";
+            shuffledAnswers = Answers29.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+
+        case 30:
+            _Question.text = "KtГіre narzД™dzie sЕ‚uЕјy do orchestracji kontenerГіw?";
+            _TrueAnswer = "K8s";
+            shuffledAnswers = Answers30.OrderBy(x => Random.value).ToArray();
+            MachMoney = 100;
+            WhichButtonWhichText();
+            break;
+            case 31:
+    _Question.text = "Co oznacza akronim KISS w programowaniu?\n" +
+        "1. Keep It Secure, Safe - Utrzymuj bezpieczeЕ„stwo kodu\n" +
+        "2. Keep It Simple, Stupid - Utrzymuj prostotД™ kodu\n" +
+        "3. Keep It Standardized, Structured - Utrzymuj standaryzacjД™\n" +
+        "4. Keep It Synchronized, Stable - Utrzymuj synchronizacjД™";
+    _TrueAnswer = "2";
+    shuffledAnswers = Answers31.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 32:
+    _Question.text = "KtГіra zasada SOLID mГіwi, Ејe klasy powinny byД‡ otwarte na rozbudowД™ ale zamkniД™te na modyfikacjД™?\n" +
+        "1. Single Responsibility Principle\n" +
+        "2. Liskov Substitution Principle\n" +
+        "3. Open-Closed Principle\n" +
+        "4. Dependency Inversion Principle";
+    _TrueAnswer = "3";
+    shuffledAnswers = Answers32.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 33:
+    _Question.text = "Co jest gЕ‚Гіwnym celem wzorca projektowego Observer?\n" +
+        "1. Tworzenie pojedynczej instancji klasy\n" +
+        "2. Hermetyzacja zЕ‚oЕјonych operacji\n" +
+        "3. Powiadamianie obiektГіw o zmianach stanu\n" +
+        "4. Dynamiczne tworzenie obiektГіw";
+    _TrueAnswer = "3";
+    shuffledAnswers = Answers33.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 34:
+    _Question.text = "KtГіra struktura danych dziaЕ‚a na zasadzie FIFO?\n" +
+        "1. Stos\n" +
+        "2. Kolejka\n" +
+        "3. Lista\n" +
+        "4. Drzewo";
+    _TrueAnswer = "2";
+    shuffledAnswers = Answers34.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 35:
+    _Question.text = "Co oznacza 'abstrakcja' w programowaniu obiektowym?\n" +
+        "1. Tworzenie wielu instancji klasy\n" +
+        "2. ЕЃД…czenie danych i funkcji w jednД… caЕ‚oЕ›Д‡\n" +
+        "3. Ukrywanie zЕ‚oЕјonoЕ›ci poprzez pokazywanie tylko istotnych cech\n" +
+        "4. Nadpisywanie metod klasy bazowej";
+    _TrueAnswer = "3";
+    shuffledAnswers = Answers35.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 36:
+    _Question.text = "KtГіra z tych jest podstawowД… koncepcjД… OOP?\n" +
+        "1. Inheritance\n" +
+        "2. Polymorphism\n" +
+        "3. Encapsulation\n" +
+        "4. Abstraction";
+    _TrueAnswer = "3";
+    shuffledAnswers = Answers36.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 37:
+    _Question.text = "Co to jest 'technical debt' (dЕ‚ug techniczny)?\n" +
+        "1. Koszt przyszЕ‚ych poprawek wynikajД…cy z obecnych uproszczeЕ„\n" +
+        "2. Koszt licencji na oprogramowanie\n" +
+        "3. WydajnoЕ›Д‡ systemu\n" +
+        "4. Czas potrzebny na kompilacjД™ kodu";
+    _TrueAnswer = "1";
+    shuffledAnswers = Answers37.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 38:
+    _Question.text = "Co to jest 'pair programming'?\n" +
+        "1. Programowanie w dwГіch jД™zykach jednoczeЕ›nie\n" +
+        "2. Dwie osoby pracujД…ce razem przy jednym komputerze\n" +
+        "3. Pisanie kodu w parach instrukcji\n" +
+        "4. Testowanie kodu przez dwГіch programistГіw";
+    _TrueAnswer = "2";
+    shuffledAnswers = Answers38.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 39:
+    _Question.text = "Co to jest 'callback' w programowaniu?\n" +
+        "1. PowrГіt do poprzedniej linii kodu\n" +
+        "2. Komunikat o bЕ‚Д™dzie\n" +
+        "3. Mechanizm debugowania\n" +
+        "4. Funkcja przekazywana jako argument do innej funkcji";
+    _TrueAnswer = "4";
+    shuffledAnswers = Answers39.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 40:
+    _Question.text = "Co to jest 'garbage collection'?\n" +
+        "1. Usuwanie nieuЕјywanych plikГіw\n" +
+        "2. Optymalizacja kodu\n" +
+        "3. Czyszczenie bazy danych\n" +
+        "4. Automatyczne zarzД…dzanie pamiД™ciД…";
+    _TrueAnswer = "4";
+    shuffledAnswers = Answers40.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 41:
+    _Question.text = "Co to jest 'dependency injection'?\n" +
+        "1. Wstrzykiwanie kodu do istniejД…cej aplikacji\n" +
+        "2. Instalacja bibliotek zaleЕјnych\n" +
+        "3. Mechanizm debugowania\n" +  // Przeniesione z pozycji 4
+        "4. Dostarczanie zaleЕјnoЕ›ci z zewnД…trz zamiast tworzenia ich wewnД…trz klasy";  // Poprawna odpowiedЕє teraz jako 4
+    _TrueAnswer = "4";  // Zmienione z "3" na "4"
+    shuffledAnswers = Answers41.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 42:
+    _Question.text = "Co to jest 'closure' w JavaScript?\n" +
+        "1. ZakoЕ„czenie programu\n" +
+        "2. ZamkniД™cie okna przeglД…darki\n" +
+        "3. Typ danych\n" +  // Przeniesione z pozycji 4
+        "4. Funkcja z zapamiД™tanym zakresem leksykalnym";  // Poprawna odpowiedЕє teraz jako 4
+    _TrueAnswer = "4";  // Zmienione z "3" na "4"
+    shuffledAnswers = Answers42.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 43:
+    _Question.text = "Co to jest 'idempotentnoЕ›Д‡' w kontekЕ›cie API?\n" +
+        "1. SzybkoЕ›Д‡ dziaЕ‚ania endpointu\n" +
+        "2. BezpieczeЕ„stwo poЕ‚Д…czenia\n" +
+        "3. Mechanizm cache'owania\n" +  // Przeniesione z pozycji 4
+        "4. WЕ‚aЕ›ciwoЕ›Д‡, Ејe wielokrotne wywoЕ‚anie daje ten sam efekt";  // Poprawna odpowiedЕє teraz jako 4
+    _TrueAnswer = "4";  // Zmienione z "3" na "4"
+    shuffledAnswers = Answers43.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 44:
+    _Question.text = "Co to jest 'mocking' w testowaniu?\n" +
+        "1. Testowanie interfejsu uЕјytkownika\n" +
+        "2. Pomiar wydajnoЕ›ci\n" +
+        "3. Generowanie danych testowych\n" +  // Przeniesione z pozycji 4
+        "4. Symulowanie zachowania obiektГіw";  // Poprawna odpowiedЕє teraz jako 4
+    _TrueAnswer = "4";  // Zmienione z "3" na "4"
+    shuffledAnswers = Answers44.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 45:
+    _Question.text = "Co to jest 'overengineering'?\n" +
+        "1. Nadmierne komplikowanie rozwiД…zania\n" +  // Poprawna odpowiedЕє przeniesiona na pozycjД™ 1
+        "2. Optymalizacja kodu\n" +
+        "3. UЕјywanie nowych technologii\n" +
+        "4. Rozbudowana dokumentacja";
+    _TrueAnswer = "1";  // Zmienione z "3" na "1"
+    shuffledAnswers = Answers45.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 46:
+    _Question.text = "Co to jest 'technical spike' w Agile?\n" +
+        "1. Eksperyment majД…cy na celu zbadanie rozwiД…zania\n" +  // Poprawna odpowiedЕє przeniesiona na pozycjД™ 1
+        "2. NagЕ‚y wzrost wydajnoЕ›ci\n" +
+        "3. Problem techniczny\n" +
+        "4. Spotkanie zespoЕ‚u developerskiego";
+    _TrueAnswer = "1";  // Zmienione z "3" na "1"
+    shuffledAnswers = Answers46.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 47:
+    _Question.text = "Co to jest 'feature flag'?\n" +
+        "1. Mechanizm wЕ‚Д…czania/wyЕ‚Д…czania funkcjonalnoЕ›ci bez deploy'owania kodu\n" +  // Poprawna odpowiedЕє przeniesiona na pozycjД™ 1
+        "2. Oznaczenie nowej funkcji w dokumentacji\n" +
+        "3. Flaga w systemie kontroli wersji\n" +
+        "4. Testowanie A/B";
+    _TrueAnswer = "1";  // Zmienione z "3" na "1"
+    shuffledAnswers = Answers47.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 48:
+    _Question.text = "Co to jest 'blue-green deployment'?\n" +
+        "1. Strategia wdraЕјania z dwoma identycznymi Е›rodowiskami\n" +  // Poprawna odpowiedЕє przeniesiona na pozycjД™ 1
+        "2. Kolorystyka interfejsu\n" +
+        "3. Metoda testowania\n" +
+        "4. NarzД™dzie do monitorowania";
+    _TrueAnswer = "1";  // Zmienione z "3" na "1"
+    shuffledAnswers = Answers48.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 49:
+    _Question.text = "Co to jest 'YAGNI' w programowaniu?\n" +
+        "1. Yet Another Generic Network Interface\n" +
+        "2. Young Architects Group Networking Initiative\n" +
+        "3. You Aren't Gonna Need It - Nie implementuj czegoЕ›, czego nie potrzebujesz\n" +
+        "4. Yield And Get Next Instruction";
+    _TrueAnswer = "3";
+    shuffledAnswers = Answers49.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
+
+case 50:
+    _Question.text = "Co to jest 'technical debt'?\n" +
+        "1. Koszt utrzymania infrastruktury\n" +
+        "2. WydajnoЕ›Д‡ systemu\n" +
+        "3. Koszt przyszЕ‚ych poprawek wynikajД…cy z obecnych uproszczeЕ„\n" +
+        "4. Czas potrzebny na kompilacjД™ kodu";
+    _TrueAnswer = "3";
+    shuffledAnswers = Answers50.OrderBy(x => Random.value).ToArray();
+    MachMoney = 100;
+    WhichButtonWhichText();
+    break;
     }
 
-    public void randQestion()
-    {
-        _NamberOfQuestion = Random.Range(1, 3);
-        switch (_NamberOfQuestion)
-        {
-            case 1:
-                _Question.text = "Даня вообще даун?";
-                _TrueAnswer = "Россия";
-                shuffledAnswers = Answers1.OrderBy(x => Random.value).ToArray();
-                MachMoney = 52;
-                WhichButtonWhichText();
-                break;
-
-            case 2:
-                _Question.text = "Oleg52";
-                _TrueAnswer = "2";
-                shuffledAnswers = Answers2.OrderBy(x => Random.value).ToArray();
-                MachMoney = 100;
-                WhichButtonWhichText();
-                break;
-        }
-
-        ResetTimer(); // Сбрасываем таймер при появлении нового вопроса
-    }
+    ResetTimer();
+}
 
     void Update()
     {
@@ -81,7 +653,7 @@ public class Questions : MonoBehaviour
         _Answer3.text = shuffledAnswers[2];
         _Answer4.text = shuffledAnswers[3];
 
-        _isQuestionActive = true; // Активируем таймер
+        _isQuestionActive = true; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
     }
 
     public void CloseQuestion()
@@ -98,8 +670,8 @@ public class Questions : MonoBehaviour
         Eating.EatPoints -= 10;
         if (TotalTime.Hour >= 24)
         {
-            TotalTime.Hour -= 24; // Корректно переходим на следующий день
-            TotalTime.Day += 1;   // Добавляем новый день
+            TotalTime.Hour -= 24; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+            TotalTime.Day += 1;   // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
         }
     }
 
