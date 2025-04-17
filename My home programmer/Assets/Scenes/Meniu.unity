@@ -1193,9 +1193,6 @@ GameObject:
   - component: {fileID: 390965006}
   - component: {fileID: 390965005}
   - component: {fileID: 390965004}
-  - component: {fileID: 390965009}
-  - component: {fileID: 390965008}
-  - component: {fileID: 390965007}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1277,48 +1274,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &390965007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390965003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0192f3512531f5c4a9cf769b9ef0fd2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HealthBar: {fileID: 275163715}
-  _ManyHealthPoints: {fileID: 1608022683}
---- !u!114 &390965008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390965003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 153d482b26ffcdf4e8fd766b0be9492a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EatBar: {fileID: 275163715}
-  _ManyEatPoints: {fileID: 1608022683}
---- !u!114 &390965009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390965003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db888b755bfc6542b5ca945f5a54d54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SleepBar: {fileID: 275163715}
-  _ManySleepPoints: {fileID: 1608022683}
 --- !u!1 &449136129
 GameObject:
   m_ObjectHideFlags: 0

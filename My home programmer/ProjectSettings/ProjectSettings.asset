@@ -694,7 +694,8 @@ PlayerSettings:
   scriptingDefineSymbols: {}
   additionalCompilerArguments: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Standalone: 1
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   managedStrippingLevel:
@@ -723,8 +724,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: My home programmer
-  metroPackageVersion: 
+  metroPackageName: Myhomeprogrammer
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -732,7 +733,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: My home programmer
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: My home programmer
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

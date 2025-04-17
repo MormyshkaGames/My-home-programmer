@@ -7,10 +7,15 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private Image HealthBar;
     [SerializeField] private TextMeshProUGUI _ManyHealthPoints;
-    public static int HealthPoints = 100;
+    public static float HealthPoints = 100;
+    public LoseHandler loseHandler;
 
     public void Update()
     {
+        if (HealthPoints <= 0)
+        {
+            loseHandler.ShowLoseScreen();
+        }
         if (HealthPoints > 100)
         {
             HealthPoints = 100;
@@ -25,6 +30,6 @@ public class Health : MonoBehaviour
 
     }
 
-    public static int GetHealthPoints() => HealthPoints;
-    public static void SetHealthPoints(int healthPoints) => HealthPoints = healthPoints;
+    public static float GetHealthPoints() => HealthPoints;
+    public static void SetHealthPoints(float healthPoints) => HealthPoints = healthPoints;
 }

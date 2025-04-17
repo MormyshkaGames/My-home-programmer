@@ -7,6 +7,7 @@ public class Balance : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _Balance;
     public static int Money;
+    public static int KMoney;
 
     void Start()
     {
@@ -15,13 +16,21 @@ public class Balance : MonoBehaviour
 
     void Update()
     {
-
         if (Money < 0)
         {
             Money = 0;
         }
 
-        _Balance.text = Money.ToString() + "$";
+        if (Money > 1000)
+        {
+            KMoney = Money / 1000;
+            _Balance.text = KMoney.ToString("0.0K");
+        }
+        else
+        {
+            _Balance.text = Money.ToString();
+        }
+        
     }
 
     public static int GetMoney() => Money;

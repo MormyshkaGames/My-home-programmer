@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dd05cc734adc94d42b496302220cf2fe
+guid: eaa4c69f6ff7abe40b00d0bc8d36b83e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: musorka_0
+      name: cursor_0
       rect:
         serializedVersion: 2
-        x: 107
-        y: 26
-        width: 36
-        height: 46
+        x: 36
+        y: 11
+        width: 17
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,8 +137,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac38be7c986ab504989fde47c05e35d4
-      internalID: 140774530
+      spriteID: 66503958e62ce3a4badad550661f896c
+      internalID: 238114825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursor_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 11
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a84d68a671ccd4f8b66ba2e552ff21
+      internalID: -560852428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursor_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 11
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfc6975ce19448438413ccbb892bdbb
+      internalID: -1130054335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursor_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 11
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575f37e3c621e81469ea958f09e28d9d
+      internalID: 1437056179
       vertices: []
       indices: 
       edges: []
@@ -154,7 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      musorka_0: 140774530
+      cursor_0: 238114825
+      cursor_1: -560852428
+      cursor_2: -1130054335
+      cursor_3: 1437056179
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
