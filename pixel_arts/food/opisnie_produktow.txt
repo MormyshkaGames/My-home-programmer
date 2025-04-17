@@ -111,10 +111,15 @@ Cena: 400
 
 Taco
 Chyba dodali tu Tabasco...
-Sen +15
+Sen +10
 Głód +30
 HP -5
 Cena: 250
+
+herbata
+Cena:100
+Sen +10
+Health +5
 
 
 
