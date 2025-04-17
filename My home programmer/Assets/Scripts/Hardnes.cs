@@ -6,17 +6,6 @@ public class Hardnes : MonoBehaviour
 {
     public static int hardnes;
     public static float Hardnesfactor;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void Easy()
     {
@@ -28,14 +17,14 @@ public class Hardnes : MonoBehaviour
     public void Medium()
     {
         hardnes = 2;
-        Hardnesfactor = 1;
+        Hardnesfactor = 1.25f;
         int slot = PlayerPrefs.GetInt("SaveSlot", 1);
         SaveSystem.SaveGameData(slot);
     }
     public void Hard()
     {
         hardnes = 3;
-        Hardnesfactor = 1;
+        Hardnesfactor = 1.50f;
         int slot = PlayerPrefs.GetInt("SaveSlot", 1);
         SaveSystem.SaveGameData(slot);
     }

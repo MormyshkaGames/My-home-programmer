@@ -9,11 +9,16 @@ public class Sleeping : MonoBehaviour
 {
     [SerializeField] private Image SleepBar;
     [SerializeField] private TextMeshProUGUI _ManySleepPoints;
-    public static int SleepPoints = 100;
+    public static float SleepPoints = 100;
+    public LoseHandler loseHandler;
 
     public void Update()
-    {   
-        if(SleepPoints > 100)
+    {
+        if (SleepPoints <= 0)
+        {
+            loseHandler.ShowLoseScreen();
+        }
+        if (SleepPoints > 100)
         {
             SleepPoints = 100;
         }
@@ -25,8 +30,8 @@ public class Sleeping : MonoBehaviour
     {
         SleepPoints += 70;
         TotalTime.Hour += 8;
-        Eating.EatPoints -= 10;
-        Health.HealthPoints -= 10;
+        Eating.EatPoints -= 10 * Hardnes.Hardnesfactor;
+        Health.HealthPoints -= 10 * Hardnes.Hardnesfactor;
 
         if (TotalTime.Hour >= 24)
         {
@@ -37,7 +42,7 @@ public class Sleeping : MonoBehaviour
         SaveSystem.SaveGameData(slot);
     }
 
-    public static int GetSleepPoints() => SleepPoints;
-    public static void SetSleepPoints(int sleepPoints) => SleepPoints = sleepPoints;
+    public static float GetSleepPoints() => SleepPoints;
+    public static void SetSleepPoints(float sleepPoints) => SleepPoints = sleepPoints;
 }
 

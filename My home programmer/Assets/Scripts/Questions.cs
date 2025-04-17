@@ -148,7 +148,7 @@ public class Questions : MonoBehaviour
 
     private void AnCorrectAnswer()
     {
-        Health.HealthPoints -= 20;
+        Health.HealthPoints -= 20 * Hardnes.Hardnesfactor;
 
         int slot = PlayerPrefs.GetInt("SaveSlot", 1);
         SaveSystem.SaveGameData(slot);

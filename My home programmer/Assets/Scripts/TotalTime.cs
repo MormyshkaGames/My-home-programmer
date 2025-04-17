@@ -43,9 +43,9 @@ public class TotalTime : MonoBehaviour
         
         if (_timeHour <= 0)
         {
-            Sleeping.SleepPoints -= 2;
-            Eating.EatPoints -= 1;
-            Health.HealthPoints -= 1;
+            Sleeping.SleepPoints -= 2 * Hardnes.Hardnesfactor;
+            Eating.EatPoints -= 1 * Hardnes.Hardnesfactor;
+
             Hour += 1;
             if (Hour >= 24)
             {

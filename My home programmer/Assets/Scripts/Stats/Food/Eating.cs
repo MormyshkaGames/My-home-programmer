@@ -9,10 +9,15 @@ public class Eating : MonoBehaviour
 {
     [SerializeField] private Image EatBar;
     [SerializeField] private TextMeshProUGUI _ManyEatPoints;
-    public static int EatPoints = 100;
+    public static float EatPoints = 100;
+    public LoseHandler loseHandler;
 
     public void Update()
     {
+        if (EatPoints <= 0)
+        {
+            loseHandler.ShowLoseScreen();
+        }
         if (EatPoints > 100)
         {
             EatPoints = 100;
@@ -20,6 +25,6 @@ public class Eating : MonoBehaviour
         EatBar.fillAmount = EatPoints / 100f;
         _ManyEatPoints.text = EatPoints.ToString();
     }
-    public static int GetEatPoints() => EatPoints;
-    public static void SetEatPoints(int eatPoints) => EatPoints = eatPoints;
+    public static float GetEatPoints() => EatPoints;
+    public static void SetEatPoints(float eatPoints) => EatPoints = eatPoints;
 }
