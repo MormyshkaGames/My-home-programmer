@@ -1,0 +1,120 @@
+Jabłko – soczyste, ale niezbyt pożywne.
+sen +1
+głód +5
+hp +10
+cena 200
+
+Kawałek ciasta – wróg diety.
+Sen +5
+Głód +35
+HP -10
+cena 300
+
+Ser
+Chyba świeży...
+Sen: +0
+Głód: +15
+HP: +5
+cena 300
+
+Kurczak
+Lepszy niż w KFC
+Sen: -10
+Głód: +45
+HP: -10
+cena 400
+
+Chipsy
+Istnieje ryzyko obrażeń od ostrego rogu!
+Sen: +0
+Głód: +20 
+HP: -5
+cena 250
+
+
+Energyk
+Najlepszy przyjaciel studenta
+Sen: +30
+Głód: +5
+HP: -15
+cena 250
+
+
+Hot dog
+Obecnie już cold dog
+Sen +5
+Głód +25
+HP -5
+300
+
+
+Kebab
+Zawsze szansa na zatrucie
+Sen +0
+Głód +30
+HP -5
+250
+
+
+Ananas
+Mężczyźni to lubią
+Sen +10
+Głód +20
+HP +5
+350
+
+
+Pizza
+Niezdrowa, ale pyszna
+Sen -15
+Głód +30
+HP +0
+250
+
+
+Naleśniki
+Naprawdę zamierzasz to jeść sam?
+Sen -30
+Głód +60
+HP -20
+350
+
+Zupa
+Skład nieznany
+Sen +0
+Głód +25
+HP +5
+300
+
+
+
+
+Stek wołowy
+Po prostu zdrowy kawał mięsa usmażony na patelni
+Sen -20
+Głód +40
+HP +5
+Cena: 400
+
+
+
+
+
+Sushi
+Zbyt drogie
+Sen +0
+Głód +40
+HP +20
+Cena: 550
+
+
+
+Taco
+Chyba dodali tu Tabasco...
+Sen +15
+Głód +30
+HP -10
+Cena: 300
+
+
+
