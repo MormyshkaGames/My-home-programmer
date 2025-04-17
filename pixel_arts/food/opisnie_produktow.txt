@@ -2,7 +2,7 @@ Jabłko – soczyste, ale niezbyt pożywne.
 sen +1
 głód +5
 hp +10
-cena 200
+cena 50
 
 Kawałek ciasta – wróg diety.
 Sen +5
@@ -15,21 +15,21 @@ Chyba świeży...
 Sen: +0
 Głód: +15
 HP: +5
-cena 300
+cena 200
 
 Kurczak
 Lepszy niż w KFC
 Sen: -10
 Głód: +45
 HP: -10
-cena 400
+cena 300
 
 Chipsy
 Istnieje ryzyko obrażeń od ostrego rogu!
 Sen: +0
 Głód: +20 
 HP: -5
-cena 250
+cena 150
 
 
 Energyk
@@ -37,7 +37,7 @@ Najlepszy przyjaciel studenta
 Sen: +30
 Głód: +5
 HP: -15
-cena 250
+cena 200
 
 
 Hot dog
@@ -45,7 +45,7 @@ Obecnie już cold dog
 Sen +5
 Głód +25
 HP -5
-300
+200
 
 
 Kebab
@@ -61,7 +61,7 @@ Mężczyźni to lubią
 Sen +10
 Głód +20
 HP +5
-350
+250
 
 
 Pizza
@@ -69,7 +69,7 @@ Niezdrowa, ale pyszna
 Sen -15
 Głód +30
 HP +0
-250
+200
 
 
 Naleśniki
@@ -77,13 +77,13 @@ Naprawdę zamierzasz to jeść sam?
 Sen -30
 Głód +60
 HP -20
-350
+300
 
 Zupa
 Skład nieznany
 Sen +0
-Głód +25
-HP +5
+Głód +35
+HP +10
 300
 
 
@@ -94,7 +94,7 @@ Po prostu zdrowy kawał mięsa usmażony na patelni
 Sen -20
 Głód +40
 HP +5
-Cena: 400
+Cena: 300
 
 
 
@@ -103,9 +103,9 @@ Cena: 400
 Sushi
 Zbyt drogie
 Sen +0
-Głód +40
-HP +20
-Cena: 550
+Głód +45
+HP +30
+Cena: 400
 
 
 
@@ -114,7 +114,7 @@ Chyba dodali tu Tabasco...
 Sen +15
 Głód +30
 HP -10
-Cena: 300
+Cena: 250
 
 
 
