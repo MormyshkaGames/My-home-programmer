@@ -18,7 +18,7 @@ public class Questions : MonoBehaviour
     public int _NamberOfQuestion;
     public int _TrueButton;
     public int MachMoney;
-    private float _timeRemaining = 5f; // ������ 5 ������
+    private float _timeRemaining = 30f; // ������ 5 ������
     private bool _isQuestionActive = false; // ������� �� ������
 
 string[] Answers1 = { "1", "2", "3", "4" };
@@ -634,7 +634,7 @@ break;
 
     void Update()
     {
-        timeBar.fillAmount = _timeRemaining / 5f;
+        timeBar.fillAmount = _timeRemaining / 30f;
 
         if (_isQuestionActive)
         {
@@ -682,7 +682,7 @@ break;
 
     public void ResetTimer()
     {
-        _timeRemaining = 5f;
+        _timeRemaining = 30f;
         timeBar.fillAmount = 1f;
         _isQuestionActive = true;
     }
