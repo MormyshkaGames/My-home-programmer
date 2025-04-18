@@ -41,7 +41,7 @@ Schładza organizm
 Sen +15
 Głód +10
 HP +15
-Cena: 150
+Cena: 250
 
 
 
@@ -52,7 +52,7 @@ Nie działa na ból moralny
 Sen +10
 Głód +0
 HP +20
-Cena: 200
+Cena: 250
 
 
 
@@ -82,3 +82,4 @@ Zapomnij o śnie na najbliższą dobę
 Sen +65
 Głód +0
 HP +10
+Cena:350
